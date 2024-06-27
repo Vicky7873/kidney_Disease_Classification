@@ -1,1 +1,32 @@
 [2024-06-27 09:41:06,729: INFO: main: welcolme to our custom log]
+[2024-06-27 21:23:25,444: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-06-27 21:23:25,446: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-27 21:23:25,447: INFO: common: created directory at: artifacts]
+[2024-06-27 21:23:25,449: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-06-27 21:23:25,449: INFO: 986331348: Downloading data from https://drive.google.com/file/d/1pHIOvfNPOHbuPT1VHv-5oJIQIBLRT1yq/view?usp=drive_link into file artifacts/data_ingestion/data.zip]
+[2024-06-27 21:23:31,867: INFO: 986331348: Downloaded data from https://drive.google.com/file/d/1pHIOvfNPOHbuPT1VHv-5oJIQIBLRT1yq/view?usp=drive_link into file artifacts/data_ingestion/data.zip]
+[2024-06-27 22:06:47,154: INFO: main: welcolme to our custom log]
+[2024-06-27 22:08:33,729: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-06-27 22:08:33,729: ERROR: main: name 'DataIngestionTrainingPipeline' is not defined]
+Traceback (most recent call last):
+  File "/Users/bhikipallai/Desktop/Projects/kidney_Disease_Classification/main.py", line 8, in <module>
+    data_ingestion = DataIngestionTrainingPipeline()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'DataIngestionTrainingPipeline' is not defined. Did you mean: 'DataIngestionPipeline'?
+[2024-06-27 22:08:54,283: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-06-27 22:08:54,284: ERROR: main: name 'DataIngestionTrainingPipeline' is not defined]
+Traceback (most recent call last):
+  File "/Users/bhikipallai/Desktop/Projects/kidney_Disease_Classification/main.py", line 8, in <module>
+    data_ingestion = DataIngestionTrainingPipeline()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'DataIngestionTrainingPipeline' is not defined. Did you mean: 'DataIngestionPipeline'?
+[2024-06-27 22:10:56,802: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-06-27 22:10:56,804: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-06-27 22:10:56,804: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-27 22:10:56,804: INFO: common: created directory at: artifacts]
+[2024-06-27 22:10:56,805: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-06-27 22:10:56,805: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1pHIOvfNPOHbuPT1VHv-5oJIQIBLRT1yq/view?usp=drive_link into file artifacts/data_ingestion/data.zip]
+[2024-06-27 22:11:03,293: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1pHIOvfNPOHbuPT1VHv-5oJIQIBLRT1yq/view?usp=drive_link into file artifacts/data_ingestion/data.zip]
+[2024-06-27 22:11:03,617: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
