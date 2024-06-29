@@ -10,7 +10,8 @@ class Predictionpipeline:
         self.filename = filename
 
     def predict(self):
-        model = load_model('artifacts/training/model.h5')
+        # model = load_model('artifacts/training/model.h5')
+        model = load_model(os.path.join("model","model.h5"))
         img = image.load_img(self.filename, target_size=(224, 224))
         test_img = image.img_to_array(img)
         test_img = np.expand_dims(test_img, axis=0)
