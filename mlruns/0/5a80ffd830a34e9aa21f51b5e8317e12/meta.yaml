@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/bhikipallai/Desktop/Projects/kidney_Disease_Classification/mlruns/0/5a80ffd830a34e9aa21f51b5e8317e12/artifacts
+end_time: 1719635317419
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5a80ffd830a34e9aa21f51b5e8317e12
+run_name: wistful-kit-292
+run_uuid: 5a80ffd830a34e9aa21f51b5e8317e12
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719635312579
+status: 3
+tags: []
+user_id: bhikipallai

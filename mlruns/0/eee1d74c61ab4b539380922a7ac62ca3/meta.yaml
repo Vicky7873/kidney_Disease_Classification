@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/bhikipallai/Desktop/Projects/kidney_Disease_Classification/mlruns/0/eee1d74c61ab4b539380922a7ac62ca3/artifacts
+end_time: 1719635413978
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: eee1d74c61ab4b539380922a7ac62ca3
+run_name: painted-moth-135
+run_uuid: eee1d74c61ab4b539380922a7ac62ca3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719635409994
+status: 3
+tags: []
+user_id: bhikipallai
