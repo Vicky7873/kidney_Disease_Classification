@@ -23,4 +23,3 @@ gdown
 
 dagshub==0.3.28
 httpx==0.23.3
--e .
