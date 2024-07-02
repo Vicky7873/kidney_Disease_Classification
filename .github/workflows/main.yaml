@@ -40,9 +40,6 @@ jobs:
           ECR_REPOSITORY: ${{ secrets.ECR_REPOSITORY_NAME }}
           IMAGE_TAG: latest
 
-    steps:
-      - name: Checkout Code
-        uses: actions/checkout@v3
 
       - name: Install Utilities
         run: |
