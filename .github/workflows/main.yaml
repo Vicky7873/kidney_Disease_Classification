@@ -94,7 +94,7 @@ jobs:
       #       docker rm -fv cnncls
       #     fi
 
-      steps:
+      
       - name: Stop and remove existing container if it exists
         run: |
           docker ps -q --filter "name=cnncls" | grep -q . && docker stop cnncls && docker rm cnncls
