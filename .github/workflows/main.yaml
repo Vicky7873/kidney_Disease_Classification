@@ -83,7 +83,7 @@ jobs:
 
       - name: Stop and Remove Container (if running)
         run: |
-          if docker ps -q --filter "name=cnncls" | grep -q .; then
+          if docker ps -aq --filter "name=cnncls" | grep -q .; then
             docker stop cnncls
             docker rm -f cnncls
             echo "Container cnncls stopped and removed successfully."
