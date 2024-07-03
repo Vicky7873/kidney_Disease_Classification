@@ -182,3 +182,5 @@ DVC
     ECR_REPOSITORY_NAME = simple-app
 
 resolved errors
+
+my-python-app is my docker image name
