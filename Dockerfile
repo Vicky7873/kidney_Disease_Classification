@@ -27,7 +27,7 @@ COPY src/ /app/src
 # Set PYTHONPATH to include src folder
 ENV PYTHONPATH="/app/src:${PYTHONPATH}"
 
-# AWS
+# AWS for
 
 
 # Run app.py when the container launches
