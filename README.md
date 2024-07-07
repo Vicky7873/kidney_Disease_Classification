@@ -187,3 +187,4 @@ my-python-app is my docker image name
 Always remember that the docker file is super imp to run this on ec2
 # 1. run the docker file local then run the same docker file on ec2
 # 2. use http://13.126.195.41:8888/ not https port
+# trying once more
